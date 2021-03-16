@@ -1,5 +1,7 @@
 # Swarm bee 节点批量管理
 
+## <font color=#FF0000>被管理的节点机器需要打开debugapi端口（默认是1635） </font>
+
 ## 功能：
 
 * 批量查看peer数
