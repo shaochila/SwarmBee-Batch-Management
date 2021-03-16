@@ -12,6 +12,7 @@
 使用python2运行nodes.py，按照提示输入
 
 ```python2
+chmod +x nodes.py
 python nodes.py
 ```
 
