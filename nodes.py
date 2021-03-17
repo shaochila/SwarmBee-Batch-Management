@@ -25,7 +25,7 @@ def cashout_all():
         os.system(sh)
 
 def chequebook():
-    print 'goerli以太坊浏览器：https://goerli.etherscan.io/address/'
+    print 'goerli以太坊浏览器：https://goerli.etherscan.io'
     for node in nodes:
         ipport = node['ip']+':'+node['port']
         sh = "curl -s "+ipport+ "/chequebook/address | jq '. | .chequebookaddress'"
