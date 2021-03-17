@@ -19,7 +19,7 @@ def cashout_all():
     for node in nodes:
         ipport = node['ip']+':'+node['port']
         sh = './cashout.sh'+' ' + 'cashout-all' + ' '+ ipport
-        log = 'echo'+' '+'`date +"%Y-%m-%d %H:%M:%S"`' + ' '+'cashout-all'+' 2021暴富 '+ ipport + '>>' + ' ' + 'cashout.log'
+        log = 'echo'+' '+'`date +"%Y-%m-%d %H:%M:%S"`' + ' '+'cashout-all'+' 2021 GET RICH  '+ ipport + '>>' + ' ' + 'cashout.log'
         os.system(log)
         print sh
         os.system(sh)
